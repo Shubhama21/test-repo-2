@@ -4,7 +4,6 @@ infrastructureDefinition:
   tags:
     abcd: def
     acd: renaaa
-    alka: king
   orgIdentifier: default
   projectIdentifier: p1
   environmentRef: nk
