@@ -1,0 +1,13 @@
+infrastructureDefinition:
+  name: shubh-infra
+  identifier: shubhinfra1
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: DoNotDelete_Mayank
+  environmentRef: shubhenv
+  deploymentType: Kubernetes
+  type: KubernetesDirect
+  spec:
+    connectorRef: account.K8sConnector0HOxc3BdAH
+    namespace: default
+    releaseName: release-<+INFRA_KEY_SHORT_ID>-shs
+  allowSimultaneousDeployments: false
