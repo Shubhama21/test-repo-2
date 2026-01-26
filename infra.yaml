@@ -2,7 +2,7 @@ infrastructureDefinition:
   name: ml1test
   identifier: ml1test
   tags:
-    abc: def
+    abcd: def
     acd: renaaa
   orgIdentifier: default
   projectIdentifier: p1
