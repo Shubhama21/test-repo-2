@@ -1,0 +1,16 @@
+infrastructureDefinition:
+  name: ml1test
+  identifier: ml1test
+  tags:
+    abc: def
+    acd: renaaa
+  orgIdentifier: default
+  projectIdentifier: p1
+  environmentRef: nk
+  deploymentType: ECS
+  type: ECS
+  spec:
+    connectorRef: account.shubh_conn
+    region: us-east-1
+    cluster: ecs-tutorial
+  allowSimultaneousDeployments: false
