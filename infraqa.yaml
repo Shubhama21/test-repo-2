@@ -1,6 +1,8 @@
 infrastructureDefinition:
   name: shubh-infra
   identifier: shubhinfra1
+  tags:
+    abcd: def
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
   environmentRef: shubhenv
