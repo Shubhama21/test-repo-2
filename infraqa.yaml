@@ -12,6 +12,6 @@ infrastructureDefinition:
   type: KubernetesDirect
   spec:
     connectorRef: account.K8sConnector0HOxc3BdAH
-    namespace: default1
+    namespace: default12
     releaseName: release-<+INFRA_KEY_SHORT_ID>-shs
   allowSimultaneousDeployments: false
