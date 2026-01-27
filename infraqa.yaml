@@ -4,7 +4,6 @@ infrastructureDefinition:
   tags:
     abcd: def
     alma: nd
-    aks: prim
   orgIdentifier: Ng_Pipelines_K8s_Organisations
   projectIdentifier: DoNotDelete_Mayank
   environmentRef: shubhenv
